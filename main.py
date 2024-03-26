@@ -1,9 +1,10 @@
 import Utils.config_loader as cfg_loader
 from first_setup import first_setup
-from colorama import Fore, Style, init
+from colorama import Fore, Style
 import Utils.logger
 from Utils.logger import LOGGER_CONFIG
 import logging.config
+import colorama
 import sys
 import os
 from cardinal import Cardinal
